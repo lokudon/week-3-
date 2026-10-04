@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Keshu Bade | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header + Navigation -->
+  <header>
+    <div class="logo">Keshu Bade</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Web Developer</p>
+      <h1>Hi, I'm Keshu Bade</h1>
+      <p>I build clean, responsive websites with HTML, CSS and modern practices.</p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="assets/profile.jpg" alt="Portrait of Keshu Bade">
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-grid">
+      <div>
+        <h2>About Me</h2>
+        <p>I'm a student at MIT studying Website Design and Development. I enjoy turning ideas into clean, accessible interfaces.</p>
+        <p>This portfolio was built with semantic HTML and an external stylesheet to practice modern CSS techniques.</p>
+      </div>
+      <aside class="highlight">
+        <h3>Currently</h3>
+        <p>Learning advanced CSS (Grid, Flexbox, custom properties) and deploying projects with GitHub Pages.</p>
+      </aside>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills section-alt">
+    <h2>Skills</h2>
+    <dl class="skills-list">
+      <dt>HTML</dt>
+      <dd>Semantic markup, accessibility, forms</dd>
+
+      <dt>CSS</dt>
+      <dd>Grid, Flexbox, custom properties, responsive design</dd>
+
+      <dt>JavaScript</dt>
+      <dd>Basic interactivity and DOM manipulation</dd>
+
+      <dt>Tools</dt>
+      <dd>Git, GitHub, VS Code</dd>
+    </dl>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <article class="project-card">
+        <span class="project-number">01</span>
+        <h3>Portfolio Website</h3>
+        <p>Responsive personal portfolio built with semantic HTML and modern CSS.</p>
+        <a href="https://github.com/shlok0-7/week-3-assingment" target="_blank" rel="noopener noreferrer">View Project →</a>
+      </article>
+
+      <article class="project-card">
+        <span class="project-number">02</span>
+        <h3>Coming Soon</h3>
+        <p>More projects will be added here as I continue learning.</p>
+        <a href="#" target="_blank" rel="noopener noreferrer">View Project →</a>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact section-alt">
+    <h2>Contact</h2>
+    <form action="#" method="get">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="btn">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Keshu Bade</p>
+    <a href="#">Back to top</a>
+  </footer>
+
+</body>
+</html>
